@@ -24,43 +24,36 @@
 
 <!-- title section -->
 <div id="mainPanel" class="panels full-cluj">
-
 	<section class="header">
 			<img src="assets/img/titlu.png" alt="city bit">
 	</section>
-
-
-<!-- main section -->
-<div class="flex center">
-<div>
-	<h1 style="width:100%;">  <span class="hint">Spune</span> <br/> "Servus Cluj"</h2><br/>
-	</div>
-<div class="page voice-page " >
-	<div class="circle voice-circle "> <img class="voice-image" src="assets/img/voice.gif">
-					<input id="speech" type="text" class="voice-input mic">
-					<button id="rec" class="btn">	</button>
-					<div id="spokenResponse" class="spoken-response">
+	<!-- main section -->
+	<div class="flex center">
+		<div>
+			<h1 style="width:100%;">  <span class="hint">Spune</span> <br/> "Servus Cluj"</h1>
+			<br/>
+		</div>
+		
+		<div class="page voice-page " >
+			<div class="circle voice-circle "> <img class="voice-image" src="assets/img/voice.gif">
+				<input id="speech" type="text" class="voice-input mic">
+				<button id="rec" class="btn">	</button>
+				<div id="spokenResponse" class="spoken-response">
 					<div class="spoken-response__text"></div>
-					</div>
-
 				</div>
-
-
+			</div>
+		</div>
+		<div class="grow"></div>
+	</div>
 </div>
-	<div class="grow"></div>
-</div>
-
-
-</div>
-
-
-
 
 <canvas id="constellation"></canvas>
+
 <div id="adPanel" class="panels" style="visibility:hidden;">
 	<section class="date-container">
 			<img src="assets/img/titlu.png" alt="titlu" style="width:50%;">
 	</section>
+
 	<section id="movie" class="movie" >
 		<h2 >
 			<img id="brand-logo" src="assets/img/brand-title.png" alt="brand-title"></h2>
@@ -83,6 +76,7 @@
 		<img class="tabel-transportation" src="assets/img/tabel-program-bus.png" alt="program-bus">
 	</section>
 </div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.js"></script>
 <script src="assets/scripts/voice.js"></script>
@@ -307,9 +301,5 @@ $('#constellation').constellation({
 
 <script src="assets/scripts/jquery.cookie.js"></script>
 
-
-
-
 </body>
-
 </html>
