@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- <link rel="stylesheet"  type="text/css" href="style-reset.css"> -->
+
+<!-- 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Open+Sans:300,400,400i,700" rel="stylesheet"> -->
+	<link rel="stylesheet"  type="text/css" href="font-awesome-4.7.0/css/font-awesome.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet"  type="text/css" href="css/style.css?v=22323">
+
+
+		<script src="https://rtcmulticonnection.herokuapp.com/dist/RTCMultiConnection.min.js"></script>
+		<script src="https://rtcmulticonnection.herokuapp.com/socket.io/socket.io.js"></script>
+</head>
+
+<body>
+	<div class="grow now bottom"></div>
+
+<!-- title section -->
+<div id="mainPanel" class="panels full-abstract template-2">
+
+	<section class="header left">
+			<img src="img/titlu.png" alt="city bit">
+	</section>
+<div id="ad-media" class="contentSection">
+	<div class="blurImage"></div>
+	<div class="adContent">
+	<iframe scrolling="no" id="ad-video" width="100%" height="600px" src="https://www.youtube.com/embed/aeUxqlJVpYo" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe>
+	<div class="clearfix">
+		<h1 id="ad-titlu">The Woman Leadership Conference | Cluj-Napoca 2018 </h1>
+		<p><span id="ad-period" class="small-info"></span><span class="small-info">@</span><span id="ad-location" class="small-info"></span></p><br>
+
+<img id="ad-image" src="" class="lefty"/>
+		<p id="ad-description">Aliquam faucibus sagittis nisi ut mattis. Sed elementum dolor vitae eleifend ultrices. Donec viverra nisl ac felis elementum eleifend. Etiam malesuada velit nec erat bibendum fringilla non in est. Pellentesque bibendum, mauris cursus laoreet eleifend, erat leo cursus magna, eu tempus lorem ligula ut metus. Nunc interdum magna ipsum, vel accumsan diam sagittis in. Duis nec varius ligula, eget vehicula ligula. Proin a neque lectus. In vitae lorem ac arcu tincidunt tristique vitae in ligula. Nunc ultrices semper odio eget eleifend. Integer tempor libero quis vulputate rhoncus.</p>
+<br/>
+		<span id="ad-button" class="button"> CUMPARA BILET</span>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Qr-4.png" id="ad-qr" class=""/>
+
+	</div>
+</div>
+</div>
+
+<!-- main section -->
+<div class="flex center relative speechSection">
+	<div>
+		<h1>Redescopera orasul cu </h1><img src="img/titlu.png" alt="city bit" style="height:40px;">
+		<h2><span class="impact">Joaca-te</span>, <span class="impact"> descopera</span> evenimentele si <span class="impact">connecteaza-te</span> cu comunitatea.</h2>
+		<h1 style="width:100%;">  <span class="hint">Incearca si spune</span> <br/>
+			<span href="" class="typewrite" data-period="3500" data-type='[ "Quizz", "Evenimente", "Connecteaza", "Play" ]'>
+	    Play<i class="wrap"></i>
+	  </span></h2><br/>
+	</div>
+	<div class="page voice-page " >
+		<div class="circle voice-circle "> <img class="voice-image" src="img/voice.gif">
+						<input id="speech" type="text" class="voice-input mic">
+						<button id="rec" class="btn">	</button>
+						<div id="spokenResponse" class="spoken-response">
+						<div class="spoken-response__text"></div>
+						</div>
+
+					</div>
+
+	</div>
+</div>
+
+</div>
+
+
+
+
+
+<script src="scripts/jquery.cookie.js"></script>
+<script src="scripts/panel.js"></script>
+<script src="scripts/voice.js"></script>
+<!-- <script src="scripts/message.js"></script> -->
+<script src="scripts/type.js"></script>
+<script src="scripts/ads.js"></script>
+<script src="scripts/callAlert.js"></script>
+
+<script>
+$( document ).ready(function() {
+    	$('.now').removeClass('now');
+});
+
+</script>
+
+</body>
+
+</html>
