@@ -1,0 +1,569 @@
+/*
+style CSS
+******************************/
+
+body{
+	background-color:#000;
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+	padding:20px 50px 20px 50px;
+	overflow: hidden;
+}
+
+.date-container{
+	width:100%;
+	text-align: center;
+
+}
+
+.weather-container,
+.public-transportation{
+	width:100%;
+	margin-top:100px;
+	text-align:left;
+}
+
+.full-cluj{
+ background-image: url(../img/clujportrait.png);
+/* background-image: url(../img/clujportraitv2.png); */
+
+	background-size: cover;
+	width: 1080px;
+	height: 1920px;
+	left: 0;
+	top: 0;
+	position: absolute;
+}
+
+.full-endava{
+	 background-image: url(../img/endava-welcome.png);
+}
+
+.full-abstract{
+	background-image: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-71809.jpg);
+	background-size: cover;
+	width: 1080px;
+	height: 1920px;
+	left: 0;
+	top: 0;
+	position: absolute;
+	padding:30px;
+}
+
+.trainer .full-abstract {
+		background-image: url(../img/sport/trainer.png);
+
+	}
+.relative{
+	position: relative !important;
+}
+
+.home{
+	margin-top:280px;
+	height:auto !important;
+}
+/*
+********************/
+.timer{
+	border-radius: 50%;
+border: 5px solid black;
+height: 150px;
+width: 150px;
+margin: 0 auto;
+margin-top: 20px;
+text-align: center;
+line-height: 136px;
+font-size: 85px;
+/* position: absolute; */
+/* top: 7px; */
+/* left: 23px; */
+background: rgba(0,0,0,0.2);
+}
+.phone-close{
+	background: red;
+	padding: 20px;
+	border-radius: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: relative;
+	float: left;
+	margin-right: 100px;
+	left: 0;
+	/* width: 221px; */
+	background-image: url(../img/phone-close.png);
+	background-repeat: no-repeat;
+	background-size: 48px;
+	background-position: 20px center;
+	padding-left: 90px;
+}
+.phone-close-right{
+	margin-left:100px;
+	margin-right:0 !important;
+}
+
+.flex-row {flex-direction: row !important;}
+.date-content{
+	width:100%;
+	font-size: 3.6em;
+}
+
+.current-weather span{
+	margin-right:20px;
+}
+
+.fhd-portrait{
+	height:1920px !important;
+}
+
+.current-weather-text{
+	font-size:3em;
+}
+
+.min-max-temperature{
+	font-size:6em;
+	margin-top: 30px;
+}
+
+.current-weather .min-temp,
+.current-weather .max-temp{
+	position: relative;
+    margin-right: 1.2em;
+}
+#videos-container {
+	position:absolute;
+}
+#videos-container video{
+
+	border-radius:40px;
+	height:960px;
+	margin:0 auto;
+	position:relative;
+}
+
+.primarie #videos-container {
+	position:relative;
+}
+.primarie  #videos-container video{
+	width:250px;
+	height:200px;
+	position:absolute;
+	top:5px;
+	right:5px;
+	left:auto;
+}
+
+.primarie  #videos-container video:nth-child(2){
+	width:1080px;
+	height: 1920px;
+	position:absolute;
+
+}
+
+
+.current-weather .min-temp{
+	color:#08D1F6;
+}
+
+.min-max-temperature .degree-circle{
+	font-size: 0.5em;
+	position:absolute;
+}
+.prognoza{
+	margin-top:30px;
+}
+.prognoza .header,
+.public-transportation .header{
+	font-size:3.6em;
+}
+
+.prognoza img{
+	width: 100%;
+}
+
+img.tabel-transportation {
+	width:100%;
+	margin-top:100px;
+}
+
+.tabel-prognoza{
+	margin-top:100px;
+}
+
+.transportation-subtitle{
+	font-size:3em;
+}
+
+
+.current-weather img {
+    width: 31%;
+}
+.titlu-bus{
+	width:75%;
+}
+h2{
+	line-height: 35px;
+}
+.header{
+position: absolute;
+margin: 0 auto;
+width: 300px;
+left: 50%;
+margin-left: -150px;
+top: 50px;
+z-index: 99;
+}
+.header.left{
+	margin-left:0px;
+	left:50px;
+}
+.header img{
+	width:100%;
+}
+video {
+	left:0; top:0;
+}
+.brand-text{
+	width:50%;
+}
+.impact{
+	color:#00bdef;
+	/* padding:10px; */
+	border-radius:10px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+/*
+*************************/
+.uppercase-text{
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+}
+
+.bold{
+	font-weight: 700;
+}
+
+.{
+	font-weight:300;
+}
+
+
+.fa.fa-sun-o{
+	color:#ffd700;
+}
+
+
+
+
+/******
+Section MOVIE
+************************/
+.panels {
+	text-align: center;
+}
+.movie{
+	width:100%;
+	/*display:none;*/
+	text-align: center;
+	margin-top: 100px;
+}
+
+.movie video{
+	width:100%;
+	margin-top:100px;
+
+}
+
+.movie .brand-text{
+	margin-top:100px;
+}
+
+.caller{
+	position: absolute;
+	z-index: 99999;
+	width: 200px;
+	/* background: #68a84c; */
+	top: 20px;
+	right: 20px;
+	border-radius: 20px;
+}
+
+.caller .avatar{
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Emil_Boc_2011-06-23.jpg/220px-Emil_Boc_2011-06-23.jpg);
+	width: 200px;
+	height: 200px;
+    background-size: cover;
+    display: inline-block;
+    float: left;
+    line-height: 41px;
+}
+
+.caller .avatar.trainer{
+	background-image: url(../img/sport/trainer-call.png);
+	width: 200px;
+	height: 200px;
+    background-size: cover;
+    display: inline-block;
+    float: left;
+    line-height: 41px;
+}
+
+
+.caller .avatar.france{
+	background-image: url(../img/orase/oras-franta-call.png);
+	width: 200px;
+	height: 200px;
+    background-size: cover;
+    display: inline-block;
+    float: left;
+    line-height: 41px;
+}
+.caller .text{
+	line-height: 48px;
+	/* padding-left: 20px; */
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	background-color: #68a84c;
+	background-image: url(../img/phone-close.png);
+	background-size: 43px;
+	background-repeat: no-repeat;
+	text-align: right;
+	padding-right: 20px;
+	background-position: 20px center;
+	box-sizing: border-box;
+}
+.caller .text.inchide{
+	background-image: url(../img/phone-close.png);
+		background-color: red;
+}
+.caller .text.answer{
+	background-image: url(../img/phone-answer.png);
+	background-size:34px;
+}
+
+#callPanel{   background: #68a84c;
+    border: 0px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 40%;
+    border-radius: 20px;
+    width: 90%;
+    z-index: 999;
+    width: 250px;
+    height: 250px;
+}
+
+video, canvas {
+            /*margin-left: 230px;*/
+            /*margin-top: 120px;*/
+            position: absolute;
+}
+
+#video, #canvas {
+    width:20%;
+		z-index:-2;
+		visibility: hidden;
+}
+.microfon {
+	max-width: 50px;
+}
+.flex{
+	display:flex;
+}
+.flex.center{
+	    align-items: center;
+			-webkit-box-pack: center;
+	    -webkit-justify-content: center;
+	    -ms-flex-pack: center;
+			justify-content: center;
+			height:100%;
+			flex-direction: column;
+			padding:20px;
+
+}
+
+.primarie .flex.center{
+	align-items: flex-end;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+}
+.grow { transition: all 2s ease-in-out; background:black; border-radius:50%;width:50px; height:50px;visibility: hidden;}
+.grow.now { transform: scale(80.1); visibility:visible;}
+
+
+.grow.bottom {
+	bottom:-50px;
+	position:absolute;
+	z-index: 999;
+}
+.hint{
+	font-size:18px;
+	font-weight: 100;
+	color:rgba(255,255,255,0.8)
+}
+.voice-image{
+  width: 529px;
+  margin-top: -73px;
+  margin-left: -140px;
+}
+.voice-page{
+  align-items: center;
+	position: relative;
+
+width: 250px;
+height: 250px;
+overflow: hidden;
+font-size: 24px;
+border-radius:50%;
+}
+.page .voice-circle{
+  top: 0;
+  background: black;
+  width: 250px;
+  height: 250px;
+
+  overflow:hidden;
+}
+.voice-input {
+  position: absolute;
+    top: 111px;
+    width: 100%;
+    left: 0;
+    font-size: 25px;
+    text-align: center;
+    background: transparent;
+    border: 0;
+    color: white;
+}
+.voice-input.mic{
+	background:url('../img/mic.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:24px;
+}
+
+/* quizz */
+.quiz h1{font-size:60px;}
+.quiz #quiz-image {max-height: 1000px;}
+.quiz #quiz-answers {margin-top:50px;}
+.quiz #timer{height:20px; width:100%; background:#9c03cf;  -webkit-transition: width 2s; /* Safari */
+    transition: width 2s; border-radius:50px; position:absolute; top:0;}
+.quiz .answers{padding:20px; font-size:55px; border-radius:50px;background-color:#9c03cf;}
+.quiz .answers.true{background-color:#1fd71f; transition: all 2s}
+.quiz .answers.false{background-color:red; transition: all 2s}
+
+.quiz .answers:nth-child(2) {margin-left:30px;}
+.quiz .stats{
+	position: absolute;
+    right: 0px;
+    font-size: 25px;
+    padding: 25px;
+    background: rgba(0,0,0,0.6);
+    margin-top: 25px;
+}
+
+#badResults{
+	margin-top:50%;
+}
+
+#badResults h2{
+	margin-bottom:40px;;
+}
+
+.stats{font-size:25px;}
+.righty{
+	float:right;
+}
+.lefty{
+	float:left;
+}
+
+#ad-titlu{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size:50px;
+}
+
+#ad-button{
+	background: transparent;
+	    color: white;
+	    padding: 20px 50px ;
+	    border-radius: 50px;
+	    font-size: 24px;
+	    margin-bottom: 20px;
+	    display: inline-block;
+	    /* float: left; */
+	    border: 3px solid #6fef9c;
+	    background-repeat: no-repeat;
+	    background-size: 58px;
+	    background-position: 20px;
+}
+#ad-description{
+	font-size:24px;
+	padding:0 30px;
+	text-align: left;
+}
+.small-info{
+	font-size:36px;
+}
+
+#ad-qr{
+	padding: 5px;
+	    background: white;
+	    border-radius: 3px;
+	    max-height: 80px;
+	    margin-left: 20px;
+}
+#ad-image{
+	max-width:350px;
+	margin-right:20px;
+}
+
+.clearfix:after {
+      display: block;
+    content: "";
+    clear: both;
+}
+
+.blurImage{
+		background-image: url(https://citybitv2.azurewebsites.net/Content/img/frankfurt-prelucrat.png);
+    filter: blur(5px);
+		background-size: cover;
+filter: blur(5px);
+position: absolute;
+z-index: 1;
+width: 100%;
+height: 65%;
+}
+
+.blurImage:after{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	content: " ";
+	left: 0;
+}
+.adContent{
+	position:absolute;
+	z-index: 2
+}
+.template-2 .contentSection{height:65%; overflow:hidden;}
+.template-2 .speechSection{height:35%; overflow:hidden; border-top:1px solid #d2d2d2; padding-top:30px;}
+
+.template-3 .full-screen
+{
+	position: absolute;
+	left:0;
+	top:0;
+}
+.template-3 .panels.full-abstract{
+	padding:0;
+}
+.template-3 .flex.center{
+	margin-top:0;
+	padding-top:0;
+}
